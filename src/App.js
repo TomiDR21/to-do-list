@@ -11,10 +11,9 @@ function App() {
   return (
     <>
       <div className={`welcomeMessage ${loaded ? "active" : ""}`}>
-        Welcome to the best To-Do List app you've ever seen! <br />
-        -Pretty intuitive and easy to use <br />
-        -No tutorial needed at all<br></br>
-        -Upto 10 To-Do's, i won't contribute to your procrastination
+        Welcome to the most complex To-Do List app you've ever seen <br />
+        -Pretty counter-intuitive and difficult to use <br />
+        -Upto 10 To-Do's, avoid procrastination
       </div>
       <div className="containerApp">
         <TodoList></TodoList>
